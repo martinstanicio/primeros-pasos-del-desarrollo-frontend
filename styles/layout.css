@@ -1,9 +1,9 @@
-main {
+.container {
   width: min(100%, 60ch);
   padding: 1rem;
   margin-inline: auto;
 }
 
-main > * + * {
+.flow > * + * {
   margin-top: 1em;
 }
