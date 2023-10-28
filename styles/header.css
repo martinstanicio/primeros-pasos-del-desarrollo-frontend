@@ -23,7 +23,7 @@ header a {
   cursor: pointer;
   padding: 0.5rem;
   border: 1px dashed currentColor;
-  border-radius: 4px;
+  border-radius: var(--radius);
 }
 
 nav {
