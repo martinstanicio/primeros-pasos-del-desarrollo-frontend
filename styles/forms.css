@@ -10,7 +10,7 @@ form > * + * {
 
 input,
 textarea {
-  border: none;
+  border: 1px solid var(--accent);
   padding: 0.5em;
   border-radius: var(--radius);
   background-color: var(--secondary);

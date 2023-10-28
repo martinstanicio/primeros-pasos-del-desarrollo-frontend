@@ -15,8 +15,8 @@
 }
 
 .button.secondary {
-  border: 2px solid var(--primary);
-  color: var(--primary);
+  border: 2px solid currentColor;
+  color: var(--accent);
 }
 
 .button-group {

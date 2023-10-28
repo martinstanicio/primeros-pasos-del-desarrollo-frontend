@@ -17,6 +17,7 @@ h4,
 h5,
 h6 {
   font-family: var(--headings);
+  color: var(--accent);
 }
 
 img {
