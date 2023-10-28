@@ -1,0 +1,19 @@
+.button {
+  display: inline-block;
+  width: 100%;
+  padding: 1em;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  text-align: center;
+}
+
+.button.primary {
+  background-color: var(--primary);
+  color: var(--background);
+}
+
+.button.secondary {
+  border: 2px solid var(--primary);
+  color: var(--primary);
+}

@@ -20,11 +20,3 @@ textarea {
 textarea {
   resize: vertical;
 }
-
-input[type="submit"] {
-  padding: 1em;
-  width: 100%;
-  background-color: var(--primary);
-  color: var(--background);
-  cursor: pointer;
-}
