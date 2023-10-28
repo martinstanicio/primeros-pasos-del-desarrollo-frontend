@@ -1,0 +1,26 @@
+.hero {
+  color: white;
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+  min-height: 50vh;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.contact-section {
+  background-color: var(--secondary);
+}
