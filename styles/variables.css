@@ -1,12 +1,14 @@
-@media (prefers-color-scheme: light) {
-  :root {
-    --text: #130201;
-    --background: #f5e7fe;
-    --primary: #56d309;
-    --secondary: #ebcefd;
-    --accent: #7f08c9;
-  }
+:root {
+  --text: #130201;
+  --background: #f5e7fe;
+  --primary: #56d309;
+  --secondary: #ebcefd;
+  --accent: #7f08c9;
+
+  --headings: "Barlow Condensed", sans-serif;
+  --body: "Montserrat", sans-serif;
 }
+
 @media (prefers-color-scheme: dark) {
   :root {
     --text: #feedec;

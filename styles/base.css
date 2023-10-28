@@ -3,7 +3,7 @@
 }
 
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--body);
   color: var(--text);
   background-color: var(--background);
   scroll-behavior: smooth;
@@ -15,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: var(--headings);
 }
 
 img {
