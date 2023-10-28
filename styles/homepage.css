@@ -12,6 +12,13 @@
   min-height: 50vh;
 }
 
+.hero img {
+  border-radius: 999px;
+  width: 12rem;
+  margin-inline: auto;
+  border: 2px solid var(--accent);
+}
+
 .hero h1 {
   font-size: 3rem;
 }
