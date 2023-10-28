@@ -17,3 +17,8 @@
   border: 2px solid var(--primary);
   color: var(--primary);
 }
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+}

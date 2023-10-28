@@ -1,0 +1,24 @@
+.card {
+  --background: var(--secondary);
+
+  background-color: var(--background);
+  border-radius: var(--radius);
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+  margin: 1rem;
+}
+
+.card > div {
+  padding: 1rem;
+  padding-top: 0;
+}
+
+.card-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30ch, 35ch));
+  grid-auto-rows: auto auto auto;
+  padding: 1rem;
+  justify-content: center;
+}
