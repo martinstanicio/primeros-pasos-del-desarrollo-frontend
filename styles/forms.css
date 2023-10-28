@@ -1,0 +1,30 @@
+form > * + * {
+  margin-top: 2rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+input,
+textarea {
+  border: none;
+  padding: 0.5em;
+  border-radius: var(--radius);
+  background-color: var(--secondary);
+  color: var(--text);
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"] {
+  padding: 1em;
+  width: 100%;
+  background-color: var(--primary);
+  color: var(--background);
+  cursor: pointer;
+}
